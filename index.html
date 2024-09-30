@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Incluye todos los nombres</h1>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin:0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+        .container{
+            background-color: lightblue;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px lightcoral;
+        }
+        h1{
+            text-align: center;
+            color: #000;
+            margin-bottom: 20px;
+            text-shadow: 5px 5px 20px lightsalmon;
+        }
+        label{
+            font-weight: bold;
+            color: lightpink;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 100%;
+            color: lightseagreen;
+           
+        }
+    </style>
+
+    <div class="container">
+       <h1>Introducir los datos de los trabajadores </h1>
+       <form action="guardar-datos.php" method="post">
+             <label for="nombre">Nombres: </label>
+             <input type="text" id="nombre " name="nombre" required>
+             <label for="nombre">Apellidos: </label>
+             <input type="text" id="apellidos" name="apellidos" required>
+             <label for="nombre">Puesto: </label>
+             <input type="text" id="puesto" name="puesto" required>
+             <label for="nombre">Idiomas: </label>
+             <input type="text" id="idiomas" name="idiomas" required>
+             <label for="nombre">Nacionalidades: </label>
+             <input type="text" id="nacionalidad " name="nacionalidad" required>
+             <label for="nombre">Genero: </label>
+             <input type="text" id="genero " name="genero" required>
+             <label for="nombre">Edad: </label>
+             <input type="text" id="edad " name="edad" required>
+             <label for="nombre">Correo: </label>
+             <input type="text" id="correo" name="correo" required>
+             <label for="nombre">Telefono: </label>
+             <input type="text" id="telefono" name="telefono" required>
+             <label for="nombre">CURP: </label>
+             <input type="text" id="curp" name="curp" required>
+             <label for="nombre">RFC: </label>
+             <input type="text" id="rfc" name="rfc" required>
+             <label for="nombre">Escolaridad: </label>
+             <input type="text" id="escolaridad" name="escolaridad" required>
+             <label for="nombre">Referencias: </label>
+             <input type="text" id="referencias" name="referencias" required>
+
+             <div class="button">
+
+             <div class="button">
+                <button type="submit">Guardar</button>
+               
+        </div>
+           
+    </form>
+
+    </div>
+</body>
+</html>
